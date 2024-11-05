@@ -1,0 +1,14 @@
+[package]
+name = "use_wcl_1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.41.0", features = ["macros"]  }
+wac-graph = "0.6.1"
+wasi = "0.13.3"
+wasi-common = "26.0.0"
+wasm_component_layer = { path = "../../wasm_component_layer" }
+wasmtime = "26.0.0"
+wasmtime-wasi = "26.0.0"
+wasmtime_runtime_layer = "25.0.0"
